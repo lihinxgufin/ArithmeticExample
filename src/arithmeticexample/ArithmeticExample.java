@@ -16,7 +16,8 @@ public class ArithmeticExample {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println(9);
+        Penjumlahan penjumlahan = new Penjumlahan();
+        System.out.println(penjumlahan.hitung(4,5));
     }
     
 }
